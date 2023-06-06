@@ -3,7 +3,6 @@ import './style.css';
 
 export default function App() {
   const [volcano, setVolcano] = useState([]);
-
   const fetchData = () => {
     fetch(process.env.REACT_APP_API)
       .then((response) => {
